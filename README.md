@@ -2,7 +2,7 @@
 # Rhythm-keyboard
 
 
-this python command-line tool listens to the sound of your computer then turns on/off the keyboard LED depending on the level of voulme playing, would look cool in things like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+this python command-line tool listens to the sound of your macOS then turns on/off the keyboard LED depending on the level of voulme playing, would look cool in things like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 
 ## Usage
