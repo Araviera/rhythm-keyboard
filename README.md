@@ -24,6 +24,7 @@ after that run
 
 the program will run forever until the user either close the terminal window or press `⌘+z` in terminal window.
 
+tested with gaming keyboard that uses the scroll key to turn on/off RGB/LED
 this is still a pretty much a beta tool, more features and GUI is planned for the future.
 ##
 Special thanks to [damieng](https://github.com/damieng) for helping me making this project possible, go check his work!
