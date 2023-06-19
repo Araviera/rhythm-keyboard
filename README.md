@@ -5,7 +5,7 @@
 this python command-line tool listens to the sound of your computer then turns on/off the keyboard LED depending on the level of voulme playing, would look cool in things like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 
-## Usage/Examples
+## Usage
 head to [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases) then head to the latest version and click on `rhythm.keyboard.zip` to downlaod the tool.
 
 after downloading the tool extract the zip file and open the termnial inside the path of the extracted folder and run
