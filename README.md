@@ -9,10 +9,14 @@ To use this tool, you will need to install the following:
 1. [Python3](https://www.python.org/downloads/).
 2. A fake software audio device such as [BlackHole](https://github.com/ExistentialAudio/BlackHole), which is a free and open-source audio device that can be used as an input or output.
 3. [LadioCast](https://apps.apple.com/eg/app/ladiocast/id411213048?mt=12), an app from the App Store.
+4. [Homebrew](https://brew.sh)
+5. latest version in [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases). Click on `rhythm.keyboard.zip` to download the tool.
 
-After installing the above, head to the [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases) page and select the latest version. Click on `rhythm.keyboard.zip` to download the tool.
+Extract the zip file
+open the terminal windowinside the path of the extracted folder
+run `brew install portaudio`
+run `python3 -m pip install -r requirements.txt`. This will download the necessary Python libraries for the code to run.
 
-Extract the zip file, open the terminal inside the path of the extracted folder, and run `python3 -m pip install -r requirements.txt`. This will download the necessary Python libraries for the code to run.
 
 ## Usage
 
