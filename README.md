@@ -41,3 +41,4 @@ Please note that this is still a beta tool and more features and a GUI are plann
 ## Acknowledgements
 
 Special thanks to [damieng](https://github.com/damieng) for helping make this project possible. Be sure to check out his work!
+The great developers of BlackHole, Python, Homebrew, and LadioCast to make such project possible!
