@@ -1,32 +1,36 @@
-
 # Rhythm-keyboard
 
+This Python command-line tool listens to the sound of your Mac and turns the keyboard LED on/off depending on the volume level. It would look cool when playing [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ). This tool utilizes keyboards that use the **Scroll Key** to turn on RGB. If your keyboard uses another key, it will not work. However, I may try to make them work in the future.
 
-this python command-line tool listens to the sound of your mac then turns on/off the keyboard LED depending on the level of voulme playing, would look cool in things like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+## Installation
 
+To use this tool, you will need to install the following:
+
+1. [Python3](https://www.python.org/downloads/).
+2. A fake software audio device such as [BlackHole](https://github.com/ExistentialAudio/BlackHole), which is a free and open-source audio device that can be used as an input or output.
+3. [LadioCast](https://apps.apple.com/eg/app/ladiocast/id411213048?mt=12), an app from the App Store.
+
+After installing the above, head to the [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases) page and select the latest version. Click on `rhythm.keyboard.zip` to download the tool.
+
+Extract the zip file, open the terminal inside the path of the extracted folder, and run `python3 -m pip install -r requirements.txt`. This will download the necessary Python libraries for the code to run.
 
 ## Usage
-head to [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases) then head to the latest version and click on `rhythm.keyboard.zip` to downlaod the tool.
 
-after downloading the tool extract the zip file and open the termnial inside the path of the extracted folder and run
+Go to System Settings > Sound, click on Output and select BlackHole, then click on Input and make it BlackHole.
 
-`pip install -r requirements.txt`
+![Screenshot 2023-07-01 at 9 15 31 PM](https://github.com/MomenBreuer/rhythm-keyboard/assets/108753652/550ae51e-0720-4cea-96f6-7f0988166e89)
+![Screenshot 2023-07-01 at 9 24 28 PM](https://github.com/MomenBreuer/rhythm-keyboard/assets/108753652/b8439d27-cfc8-4a45-a56f-5ec789a5a981)
 
-if did not work for some reason, then try
+Launch the LadioCast app, click on Input 1 and select BlackHole, then select Main Output and select your output device. For example, I am connected to a Samsung SmartTV screen and my Mac sound is coming out from it.
 
-`pip3 install -r requirements.txt`
+![Screenshot 2023-07-01 at 9 26 05 PM](https://github.com/MomenBreuer/rhythm-keyboard/assets/108753652/48b7dee3-fb18-4e5f-a76c-780f4371b938)
 
-that will download the needed python libraries for the python code to run.
+Finally, to use the tool, run `python3 rhythm_keyboard.py`. The program will run indefinitely until the user either closes the terminal window or presses `ctrl+z` in the terminal window.
 
-after that run
-`python rhythm_keyboard.py` to run the program, if did not work try 
-`python3 rhythm_keyboard.py`.
+This tool has been tested with a gaming keyboard that uses the scroll key to turn on/off RGB/LED.
 
-the program will run forever until the user either close the terminal window or press `⌘+z` in terminal window.
+Please note that this is still a beta tool and more features and a GUI are planned for future releases.
 
+## Acknowledgements
 
-tested with gaming keyboard that uses the scroll key to turn on/off RGB/LED
-
-this is still a pretty much a beta tool, more features and GUI is planned for the future.
-##
-Special thanks to [damieng](https://github.com/damieng) for helping me making this project possible, go check his work!
+Special thanks to [damieng](https://github.com/damieng) for helping make this project possible. Be sure to check out his work!
