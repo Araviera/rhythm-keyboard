@@ -13,8 +13,11 @@ To use this tool, you will need to install the following:
 5. latest version in [releases](https://github.com/MomenBreuer/rhythm-keyboard/releases). Click on `rhythm.keyboard.zip` to download the tool.
 
 Extract the zip file
+
 open the terminal windowinside the path of the extracted folder
+
 run `brew install portaudio`
+
 run `python3 -m pip install -r requirements.txt`. This will download the necessary Python libraries for the code to run.
 
 
