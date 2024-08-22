@@ -27,7 +27,7 @@ def callback(in_data, frame_count, time_info, status):
 stream = pa.open(format=pyaudio.paInt16, channels=1, rate=44100, input=True, stream_callback=callback)
 
 # Set a threshold value for the average volume
-threshold = 1000
+threshold = 200
 
 if __name__ == "__main__":
     try:
